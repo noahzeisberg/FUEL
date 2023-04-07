@@ -1,0 +1,13 @@
+{
+  "name": "Example Fuel",
+  "version": "1.0.0",
+  "author": "NoahOnFyre",
+  "description": "A simple FUEL to demonstrate the way FUELs work.",
+  "command_name": "test",
+  "type": "default",
+  "content": [
+    "print(prefix('INFO') + 'First test message from FUEL')",
+    "time.sleep(2)",
+    "print(prefix('INFO') + 'Second test message from FUEL')"
+  ]
+}
