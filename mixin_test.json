@@ -1,0 +1,12 @@
+{
+  "name": "Mixin Test",
+  "version": "1.0.0",
+  "author": "NoahOnFyre",
+  "description": "A quick FUEL for testing purporses only.",
+  "command_name": "inject",
+  "type": "default",
+  "content": [
+    "def color():",
+    "   return Fore.WHITE"
+  ]
+}
