@@ -6,7 +6,6 @@
   "command_name": "inject",
   "type": "default",
   "content": [
-    "def color():",
-    "   return Fore.WHITE"
+    "def color(): return Fore.WHITE"
   ]
 }
