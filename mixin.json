@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "author": "NoahOnFyre",
     "description": "A FUEL to demonstrate the usage of mixins.",
-    "fuel_format": 1,
+    "format": 1,
     "properties": {
         "type": "MIXIN"
     },
