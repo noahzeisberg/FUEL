@@ -1,0 +1,15 @@
+{
+    "name": "Example Mixin FUEL",
+    "version": "1.0.0",
+    "author": "NoahOnFyre",
+    "description": "A FUEL to demonstrate the usage of mixins.",
+    "fuel_format": 1,
+    "properties": {
+        "type": "MIXIN"
+    },
+    "mixin": [
+        "def color(): return Fore.RED",
+        "print(prefix('INFO') + 'The color has been changed to red!')",
+        "time.sleep(1.5)"
+    ]
+}

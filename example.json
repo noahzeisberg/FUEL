@@ -1,13 +1,27 @@
 {
-  "name": "Example Fuel",
+  "name": "Example FUEL",
   "version": "1.0.0",
   "author": "NoahOnFyre",
   "description": "A simple FUEL to demonstrate the way FUELs work.",
-  "command_name": "test",
-  "type": "default",
-  "content": [
-    "print(prefix('INFO') + 'First test message from FUEL')",
-    "time.sleep(2)",
-    "print(prefix('INFO') + 'Second test message from FUEL')"
-  ]
+  "fuel_format": 1,
+  "properties": {
+      "type": "DEFAULT",
+      "command_name": "test"
+  },
+  "head": {
+      "enabled": true,
+      "status": "Running the test command",
+      "argument_length": 1,
+      "arguments": [
+          "example_fuel_variable"
+      ]
+  },
+  "body": {
+      "enabled": true,
+      "content": [
+          "print(prefix('INFO') + 'Test message from FUEL')",
+          "time.sleep(1)",
+          "print(prefix('INFO') + 'Argument: ' + example_fuel_variable)"
+      ]
+  }
 }
