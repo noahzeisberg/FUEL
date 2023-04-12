@@ -8,8 +8,7 @@
         "type": "MIXIN"
     },
     "mixin": [
-        "def color(): return Fore.RED",
-        "print(prefix('INFO') + 'The color has been changed to red!')",
-        "time.sleep(1.5)"
+        "color = Fore.RED",
+        "print(prefix('INFO') + 'The color has been changed to red!')"
     ]
 }
