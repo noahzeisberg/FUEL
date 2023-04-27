@@ -21,7 +21,10 @@
       "content": [
           "print(prefix('INFO') + 'Test message from FUEL')",
           "time.sleep(1)",
-          "print(prefix('INFO') + 'Argument: ' + example_fuel_variable)"
+          "print(prefix('INFO') + 'Argument: ' + example_fuel_variable)",
+          "if example_fuel_variable == 'test':",
+          " print('Testing...')",
+          " time.sleep(1)"
       ]
   }
 }
