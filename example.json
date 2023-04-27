@@ -23,7 +23,8 @@
           "time.sleep(1)",
           "print(prefix('INFO') + 'Argument: ' + example_fuel_variable)",
           "if example_fuel_variable == 'test':",
-          " print(prefix('INFO') + 'Testing...')"
+          " print('Testing...')",
+          " time.sleep(1)"
       ]
   }
 }
