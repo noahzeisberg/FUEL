@@ -1,0 +1,5 @@
+print(prefix() + "This is an example command, executed by a FUEL.")
+time.sleep(1)
+prefix(prefix("ERROR") + "This is an error.")
+prefix(prefix("WARN") + "This is a warning.")
+prefix(prefix("DEBUG") + "This is a debug message.")
