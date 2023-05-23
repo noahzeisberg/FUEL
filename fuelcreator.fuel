@@ -2,8 +2,12 @@ name = input("Enter name: ")
 path = input("Enter path: ")
 if not os.path.exists(fuel_content_dir + "fuelcreator_out"):
     os.makedirs(fuel_content_dir + "fuelcreator_out")
-dest_file = open(fuel_content_dir + "fuelcreator_out\\" + name + ".fuel", "wt")
+dest_file = open(fuel_content_dir + "fuelcreator_out\\" + name + ".fuel", "at")
 src_file = open(path, "rt")
 argument_count = 0
 for line in src_file.readlines():
     line.replace("print(", "print(prefix('INFO', '" + name.capitalize() + "')")
+    dest_file.write(line)
+dest_file.close()
+src_file.close()
+highlight_file(fuel_content_dir + "fuelcreator_out\\" + name + ".fuel")
