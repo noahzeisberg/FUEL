@@ -1,0 +1,9 @@
+import time
+
+print(prefix() + "Welcome to the core.fuel demonstration file.")
+time.sleep(0.5)
+print(prefix() + "Here's how you can make " + RED + " colored " + BLUE + " text.")
+
+import os
+os.system("title Title of window set.")
+print(prefix() + "The title has changed!")
