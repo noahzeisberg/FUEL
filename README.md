@@ -9,4 +9,4 @@ You can set properties that FyUTILS can use in the `cmd.props` file. Here is a l
 - name: The command name the FUEL should be executed with, for example: `test` (string)
 - use_api*: If your script needs access to FyUTILS API (boolean)
 
-*: `use_api` is deprecated, and you technically don't need it, because all FUELS automatically are having access to the API.
+*: `use_api` is deprecated, and you technically don't need it, because all FUELS automatically are having access to the API, but you'll still need a value for it.
