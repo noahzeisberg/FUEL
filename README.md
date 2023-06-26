@@ -1,5 +1,5 @@
 # FUEL
-A example repository for creating your own FUELS.
+An example repository for creating your own FUELS.
 
 # Syntax
 FUEL uses the same syntax as python.
