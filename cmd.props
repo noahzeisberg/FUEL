@@ -1,4 +1,5 @@
 {
     "name": "example",
-    "use_api": true
+    "author": "NoahOnFyre",
+    "version": "1.0.0"
 }
